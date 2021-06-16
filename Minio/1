@@ -1,0 +1,1 @@
+sudo ./mc cp ~/Downloads/sample.csv myminio/mybucket

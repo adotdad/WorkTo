@@ -1,0 +1,5 @@
+MAINTAINER alireza
+
+RUN for i in $(seq 1 10); do echo "alireza"; done
+
+CMD 

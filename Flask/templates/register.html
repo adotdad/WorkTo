@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+
+<style>
+    .v_border1 {
+        border-left: 1px solid black;
+        position: absolute;
+        left: 1%;
+        top: 1%;
+        bottom: 1%;
+    }
+
+    .v_border2 {
+        border-right: 1px solid black;
+        position: absolute;
+        right: 1%;
+        top: 1%;
+        bottom: 1%;
+    }
+
+    .v_login1 {
+        border-left: 1px solid black;
+        position: absolute;
+        left: 37%;
+        top: 30%;
+        bottom: 30%;
+    }
+
+    .v_login2 {
+        border-right: 1px solid black;
+        position: absolute;
+        right: 37%;
+        top: 30%;
+        bottom: 30%;
+    }
+
+    .h_border1 {
+        border-bottom: 1px solid black;
+        position: absolute;
+        left: 1%;
+        top: 1%;
+        right: 1%;
+    }
+
+    .h_border2 {
+        border-top: 1px solid black;
+        position: absolute;
+        left: 1%;
+        bottom: 1%;
+        right: 1%;
+    }
+
+    .h_login1 {
+        border-bottom: 1px solid black;
+        position: absolute;
+        left: 37%;
+        top: 30%;
+        right: 37%;
+    }
+
+    .h_login2 {
+        border-top: 1px solid black;
+        position: absolute;
+        left: 37%;
+        bottom: 30%;
+        right: 37%;
+    }
+
+    input[type=text], input[type=password] {
+        padding: 10px 10px;
+        box-sizing: border-box;
+        border: 1px solid black;
+        outline: none;
+        position: absolute;
+    }
+
+    .button {
+        border: 1px solid black;
+        border-radius: 5px;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+
+    .logout {
+        background-color: white;
+        color: black;
+        position: absolute;
+        top: 56%;
+        right: 39.8%;
+    }
+
+    .logout:hover {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+    .submit {
+        background-color: white;
+        color: black;
+        position: absolute;
+        bottom: 3%;
+        left: 4%;
+    }
+
+    .submit:hover {
+        background-color: #4CAF50;
+        color: white;
+    }
+</style>
+
+<body>
+<div class="v_border1"></div>
+<div class="v_border2"></div>
+<div class="h_border1"></div>
+<div class="h_border2"></div>
+<div class="v_login1"></div>
+<div class="v_login2"></div>
+<div class="h_login1"></div>
+<div class="h_login2"></div>
+<div style="position:absolute; left: 38.5%; top:40%; font-size: 16px;">
+    Name:
+</div>
+<div style="position:absolute; left: 38.5%; top: 46%; font-size: 16px;">
+    Username:
+</div>
+<div style="position:absolute; left: 38.5%; top:52%; font-size: 16px;">
+    Password:
+</div>
+
+<form method='POST'>
+    <input type="text" id="name" placeholder="name" name="name" style="right: 40%; top: 39%; width: 17%; height: 4%;">
+    <input type="text" id="username" placeholder="username" name="username" style="right: 40%; top: 45%; width: 17%; height: 4%">
+    <input type="password" id="password" placeholder="password" name="password" style="right: 40%; top: 51%; width: 17%; height: 4%">
+    <button class="button logout" id="register" type="submit">Register</button>
+</form>
+</body>
+</html>

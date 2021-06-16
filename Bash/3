@@ -1,0 +1,1 @@
+rsync -vau --remove-source-files Desktop/ Desktop/all

@@ -1,0 +1,6 @@
+sudo docker run -it --rm -d -p 8080:80 --name web nginx
+sudo docker rm web8082
+sudo docker stop web8082
+sudo docker rmi nginx
+sudo docker run --name ubuntu_bash --rm -i -t ubuntu bash
+

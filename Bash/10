@@ -1,0 +1,1 @@
+alias rm='f(){ mv "$1" /tmp/; unset -f f; }; f'

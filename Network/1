@@ -1,0 +1,5 @@
+ping www.cafebazaar.ir
+netstat -np
+lsof -np 80
+gdb -p 80
+call close(80)
